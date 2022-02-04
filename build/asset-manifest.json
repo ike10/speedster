@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.32056b96.css",
+    "main.js": "/static/js/main.16dacca5.js",
+    "static/js/787.c275f0e4.chunk.js": "/static/js/787.c275f0e4.chunk.js",
+    "static/media/walletconnect.svg": "/static/media/walletconnect.0a8b652b02d0d90ce0ef25c6c6b68cb3.svg",
+    "static/media/trustwallet.svg": "/static/media/trustwallet.5443e25d7c81e86e4614cd61077b5437.svg",
+    "static/media/binancesmartchain.svg": "/static/media/binancesmartchain.c4c9a120c04439e367390d1cc049a13b.svg",
+    "static/media/binance.svg": "/static/media/binance.525492eff8f2d12f265ff62deb4d1f98.svg",
+    "static/media/BTC - Bitcoin.svg": "/static/media/BTC - Bitcoin.cd79b01570becdc98388f83f96879d23.svg",
+    "static/media/metamask.svg": "/static/media/metamask.de3977c015dfbc90f1c50a3f0587a7d7.svg",
+    "static/media/BNB - BNB.svg": "/static/media/BNB - BNB.853aba16ee5a1d888629d0eac7ac9ba9.svg",
+    "static/media/LightSwap.svg": "/static/media/LightSwap.46b25c16e9fed139b5ede4aa720c6a90.svg",
+    "static/media/Vectorsettings.svg": "/static/media/Vectorsettings.2beafac1dd00e44f88d586f0737d77fb.svg",
+    "index.html": "/index.html",
+    "static/media/Vectorrefresh.svg": "/static/media/Vectorrefresh.e85dc98dc4e000995395a4239489818c.svg",
+    "static/media/Cancel.svg": "/static/media/Cancel.fa5a45cf9b18733bd9ad2c6bf5106866.svg",
+    "static/media/switch-horizonal.svg": "/static/media/switch-horizonal.c83d2a0a4b6f940c6d2585748b315045.svg",
+    "static/media/Back.svg": "/static/media/Back.e962a90ac0a863dd4b8140891436d2c4.svg",
+    "static/media/formOverlay.svg": "/static/media/formOverlay.85a8f530d5deaf0f6d06.svg",
+    "static/media/Vector.svg": "/static/media/Vector.1dfa64d9aaa8b4260908114dae0d3ec4.svg",
+    "main.32056b96.css.map": "/static/css/main.32056b96.css.map",
+    "main.16dacca5.js.map": "/static/js/main.16dacca5.js.map",
+    "787.c275f0e4.chunk.js.map": "/static/js/787.c275f0e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32056b96.css",
+    "static/js/main.16dacca5.js"
+  ]
+}

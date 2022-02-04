@@ -1,0 +1,459 @@
+.main-body{
+  /* margin: 30px; */
+  background-color: #fff;
+  /* margin-left: 30; */
+  width: 100vw;
+ margin:0 auto;
+ overflow-x: hidden;
+ font-family:'Circular Std'
+ 
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 13px;
+}
+
+.header-container{
+    height: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    flex-direction: row;
+    background-color: #000000;
+    width: 100%;
+}
+.page-logo{
+    width: 20%;
+}
+
+.header-container div{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+.page-links{
+    width: 50%;
+    margin-left: -30px;
+    margin-right: 20px;
+   
+}
+.page-buttons{
+    width: 20%;
+}
+.page-links p{
+  margin: 15px;
+height: 23px;
+font-style: normal;
+font-weight: 450;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.header-button{
+    width: 163px;
+    height: 43px;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 10px;
+    justify-content: center;
+   
+}
+
+
+
+#connect-wallet-button{
+background: rgba(254, 198, 13, 1);
+color: #000;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+width: 163px;
+}
+
+#connect-wallet-button p{
+color: #000;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+}
+
+#connect-wallet-button:hover{
+    background: rgb(157, 122, 8);
+}
+
+#binance-button{
+background: rgba(43, 43, 43, 1);
+font-style: normal;
+align-items: center;
+justify-content: flex-start;
+cursor: pointer;
+
+}
+
+#binance-button p{
+    font-size: 18px;
+}
+
+#binance-button:hover{
+    background: rgb(79, 79, 79);
+}
+#binance-button img{
+    margin: 5px;
+}
+.home-page{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-form{
+    padding: 63px;
+    display: flex;
+    width: 50%;
+}
+
+.form-overlay{
+    height: 548px;
+    width: 766px;
+    background-image: url("./images/homepage/formOverlay.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding-top: 50px;
+    padding-left: 50px;
+    position: relative;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 433px;
+    height: 617px;
+    background-color: #000000;
+    border-radius: 30px;
+    color: #ffffff;
+    align-items: center;
+}
+.form-header{
+    font-weight: 700;
+    line-height: 45px;
+    font-style: normal;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+.form-container-icon{
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    width: 344px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.form-container-icon img{
+    margin-right: 10px;
+}
+
+.form-label{
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 23px;
+    font-style: normal;
+    margin-bottom: 5px;
+     width: 342px;
+     margin-top: 4px;
+}
+.form-balance{
+    flex-direction: row;
+    text-align: end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 342px;
+    display: flex;
+}
+.switch-icon-container{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.form-select{
+    width: 342px;
+    height: 70px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #fec60d;
+    box-sizing: border-box;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.form-select img{
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+}
+.form-select p{
+    margin-left: 5px;
+    font-family: Circular Std;
+font-size: 24px;
+font-style: normal;
+font-weight: 450;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+width: 30%;
+
+}
+.form-select input{
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 30px;
+    justify-self: flex-end;
+    text-align: end;
+    width: 50%;
+}
+.form-container-button{
+    height: 70px;
+width: 344px;
+left: 0px;
+border-radius: 12px;
+color: #000;
+background: rgba(254, 198, 13, 1);
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+.form-container-button p{
+  
+
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+
+color: #000000;
+}
+
+.form-bottom-text{
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 344px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.form-bottom-text-heading{
+    width: 90%;
+    display: flex;
+     text-align: start;
+}
+
+.form-bottom-text-figure{
+    width: 10%;
+    display: flex;
+   
+    text-align: end;
+}
+
+.home-chart{
+    width: 50%;
+    padding-top: 80px;
+}
+
+.home-chart-container{
+    width: 534px;
+      height: 548px;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-top: 50px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.chart-info{
+    display: flex;
+    flex-direction: column;
+    width: 461px;
+   
+}
+.chart-info-logo{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.chart-navbar{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chart-navbar p{
+    margin: 2px;
+}
+.chart-navbar img{
+    margin: 2px;
+}
+
+.time-card-container{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+ 
+  
+    
+}
+
+.time-card{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-self: flex-end;
+   margin-left: 200px;
+  justify-content: center;
+  align-items: center;
+   width: 106px;
+height: 38px;
+
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+.time-card p{
+width: 27px;
+height: 18px;
+left: 5px;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+margin-left: 5px;
+color: #000000;
+
+}
+
+.chart-info-rate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+
+}
+.chart-info-price{
+    width: 95px;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+
+/* identical to box height */
+
+
+color: #000000;
+}
+.chart-info-percentage{
+width: 62px;
+
+font-style: normal;
+font-weight: 450;
+font-size: 18px;
+
+/* identical to box height */
+
+
+/* Crypto Red */
+
+color: #FF0000;
+
+}
+
+.chart-container{
+    width: 461px;
+height: 317px;
+top: 117px;
+
+background: linear-gradient(180deg, #FEC60D 0%, rgba(254, 198, 13, 0) 100%);
+}
+
+.chart-button{
+    width: 534px;
+height: 130px;
+
+
+background: #C4C4C4;
+border-radius: 20px;
+}
+
+.menu-container{
+    position: fixed;
+width: 188px;
+height: 225px;
+right: 305px;
+top: 110px;
+display: flex;
+flex-direction: column;
+background: #2B2B2B;
+border-radius: 5px;
+z-index: 70;
+padding-top: 20px;
+padding-left: 20px;
+
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    
+    margin: 5px;
+    
+}
+
+.menu-item p{
+    width: 65px;
+height: 23px;
+left: 0.2px;
+top: 0px;
+position: relative;
+font-style: normal;
+font-weight: 450;
+font-size: 18px;
+line-height: 23px;
+margin-left: 10px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+transform: rotate(0.49deg);
+}
+
+
+

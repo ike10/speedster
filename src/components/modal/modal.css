@@ -1,0 +1,120 @@
+.main-modal{
+    position: absolute;
+  
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+  overflow-y: scroll;
+    background-color: rgb(70, 70, 70);
+    z-index: 70;
+}
+
+.connect-wallet-modal{
+    height: 895px;
+     
+}
+
+.connect-wallet-form{
+    position: absolute;
+width: 433px;
+height: 617px;
+left: 504px;
+top: 248px;
+
+background: #FFFFFF;
+/* LightEx yellow */
+
+border: 2px solid #FEC60D;
+box-sizing: border-box;
+border-radius: 30px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.connect-wallet-header{
+ 
+width: 200px;
+height: 30px;
+
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+border-bottom: #FEC60D solid 2px;
+color: #000000;
+}
+
+.connect-wallet-nav{
+width: 280px;
+display: flex;
+flex-direction: row;
+height: 60px;
+}
+
+.connect-wallet-nav-back{
+   
+    display: flex;
+    align-self: flex-end;
+    width: 245px;
+    height: 13px;
+   
+}
+
+.connect-wallet-nav-cancel img:hover{
+   
+    cursor: pointer;
+}
+
+.connect-wallet-nav-back img:hover{
+   
+    cursor: pointer;
+}
+
+.connect-wallet-nav-cancel{
+   
+    display: flex;
+    align-self: flex-end;
+    margin-left: 80px;
+    width: 245px;
+    height: 13px;
+   
+}
+
+
+.wallet-container{
+    flex-direction: row;
+    display: flex;
+    width: 240px;
+    
+}
+.wallet-container div{
+    margin: 10px;
+    font-style: normal;
+font-weight: 450;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+.connect-wallet-text{
+    
+font-style: normal;
+font-weight: 450;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+
