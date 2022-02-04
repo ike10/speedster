@@ -83,7 +83,7 @@ export const App  = () => {
                     <div onClick={()=>{
                         setShowConnectWallet(!showConnectWallet)
                     }} id="connect-wallet-button" className="header-button">
-                        <img alt="lightswap"/>
+                       
                         <p>Connect Wallet</p>
                     </div>
                 </div>

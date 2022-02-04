@@ -39,7 +39,7 @@ export const ConnectModal  = ({closeModal}) => {
                         <p>Binance</p>
                     </div>
                     <div id="connect-wallet-button" className="header-button">
-                        <img alt="lightswap" />
+                        
                         <p>Connect Wallet</p>
                     </div>
                 </div>
