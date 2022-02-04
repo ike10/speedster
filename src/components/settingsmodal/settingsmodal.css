@@ -1,0 +1,200 @@
+.main-modal{
+    position: absolute;
+  
+    width: 100vw;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+  overflow-y: scroll;
+    background-color: rgb(70, 70, 70);
+    z-index: 70;
+  
+}
+
+.settings-modal{
+    height: 895px;
+     
+}
+
+.settings-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+   
+width: 433px;
+height: 593px;
+left: 504px;
+top: 148px;
+padding: 10px;
+padding-left: 50px;
+
+/* LightEx yellow */
+
+border: 2px solid #FEC60D;
+box-sizing: border-box;
+border-radius: 30px;
+}
+
+.settings-nav{
+    width: 335px;
+height: 40px;
+margin-top: 50px;
+}
+
+.settings-nav img{
+    cursor: pointer;
+}
+
+.settings-header{
+    width: 138px;
+height: 46px;
+
+
+font-family: Circular Std;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 46px;
+text-align: center;
+align-self: center;
+margin-left: -10px;
+/* identical to box height */
+
+text-align: center;
+
+
+border-bottom: #FEC60D solid 2px;
+}
+
+.settings-toggle-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    
+    width: 317px;
+}
+
+.settings-toggle-container p{
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 20px;
+
+}
+
+.settings-toggle-container div{
+    margin-left: 120px;
+    width: 65px;
+height: 33px;
+cursor: pointer;
+}
+
+.settings-slippage-header{
+  
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 10px;
+width: 335px;
+height: 20px;
+
+}
+.settings-slippage-container{
+    display: flex;
+    flex-direction: row;
+    width: 335px;
+height: 20px;
+margin-bottom: 10px;
+}
+
+.settings-slippage-text{
+    padding: 5px 17px;
+margin: 3px;
+width: 89px;
+height: 40px;
+
+
+/* LightEx yellow */
+
+background: #FEC60D;
+border-radius: 12px;
+}
+
+.settings-slippage-text p{
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+margin: 2px;
+color: #000000;
+}
+
+.transaction-speed-header{
+
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+
+margin-top: 40px;
+}
+
+.transaction-speed-container{
+     display: flex;
+    flex-direction: row;
+    width: 335px;
+height: 40px;
+}
+
+.transaction-speed-text{
+  padding: 5px 17px;
+margin: 3px;
+
+width: 89px;
+height: 40px;
+
+
+/* LightEx yellow */
+
+background: #FEC60D;
+border-radius: 12px;
+}
+
+.transaction-speed-text p{
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+margin:2px;
+color: #000000;
+}
+
+.settings-help{
+    margin-top: 40px;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.settings-help p{
+
+font-style: normal;
+font-weight: 450;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: center;
+
+
+}
+
+.settings-help-link{
+    color: #FEC60D;
+}

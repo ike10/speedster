@@ -3,8 +3,8 @@ import React from "react";
 // import mystyles from './mystyles.module.css';
 import './modal.css'
 import '../../App.css'
-import LightSwap from '../../images/homepage/LightSwap.svg'
-import BinanceIcon from '../../images/homepage/binance.svg'
+// import LightSwap from '../../images/homepage/LightSwap.svg'
+// import BinanceIcon from '../../images/homepage/binance.svg'
 import MetamaskIcon from '../../images/homepage/metamask.svg'
 import Trustwallet from '../../images/homepage/trustwallet.svg'
 import WalletConnect from '../../images/homepage/walletconnect.svg'
@@ -21,30 +21,7 @@ export const ConnectModal  = ({closeModal}) => {
     return (
     <div className="main-modal">
     {/* header */}
-        <nav className="header-container">
-            
-                <div className="page-logo">
-                    <img alt="lightswap" src={LightSwap} />
-                </div>
-                <div className="page-links">
-                        
-                        <p>Trade</p>
-                        <p>Earn</p>
-                        <p>NFT Marketplace</p>
-                    
-                </div>
-                <div className="page-buttons">
-                    <div id="binance-button" className="header-button">
-                        <img alt="lightswap" src={BinanceIcon} />
-                        <p>Binance</p>
-                    </div>
-                    <div id="connect-wallet-button" className="header-button">
-                        
-                        <p>Connect Wallet</p>
-                    </div>
-                </div>
-            
-        </nav>
+       
     {/* end of heder */}
     {/* wallet  modal */}
         <div className="connect-wallet-modal"

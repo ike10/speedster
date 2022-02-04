@@ -9,14 +9,31 @@ import RefreshIcon from '../src/images/homepage/Vectorrefresh.svg'
 import BTCIcon from '../src/images/homepage/BTC - Bitcoin.svg'
 import BNBIcon from '../src/images/homepage/BNB - BNB.svg'
 import Switch from '../src/images/homepage/Vector.svg'
-
+import MenuDown from '../src/images/homepage/menudown.svg'
 import SwitchHorizontal from '../src/images/homepage/switch-horizonal.svg'
+import Ethereum from '../src/images/homepage/ethereum.svg'
+import Polygon from '../src/images/homepage/polygon.svg'
+import Avalance from '../src/images/homepage/avalanche logo.svg'
 
 import BinanceIcon from '../src/images/homepage/binance.svg'
-import ConnectModal from "./components/modal/modal";
+import ConnectModal from './components/modal/modal'
+import SettingsModal from './components/settingsmodal/settingsmodal'
 export const App  = () => {
  const [showConnectWallet, setShowConnectWallet] = useState(false)
   const [showMenu, setShowMenu] = useState(false)
+  const [showSettingsModal, setShowSettingsModal] = useState(false)
+
+  const renderSettingsModal = ()=>{
+      if(showSettingsModal){
+          return(
+              <SettingsModal closeModal={()=>{
+                  setShowSettingsModal(!showSettingsModal)
+              }}/>
+          )
+      }else{
+          return null
+      }
+  }
  const renderConnectWallet =()=>{
      if(showConnectWallet){
          return(
@@ -37,15 +54,15 @@ export const App  = () => {
                     <p>Binance</p>
                 </div>
                 <div className="menu-item">
-                    <img alt="lightswap"src={BNBIcon}/>
+                    <img alt="lightswap"src={Ethereum}/>
                     <p>Ethereum</p>
                 </div>
                 <div className="menu-item">
-                    <img alt="lightswap"src={BNBIcon}/>
+                    <img alt="lightswap"src={Polygon}/>
                     <p>Polygon</p>
                 </div>
                 <div className="menu-item">
-                    <img alt="lightswap"src={BNBIcon}/>
+                    <img alt="lightswap"src={Avalance}/>
                     <p>Avalanche</p>
                 </div>
              </div>
@@ -64,10 +81,21 @@ export const App  = () => {
                     <img alt="lightswap"src={LightSwap} />
                 </div>
                 <div className="page-links">
-                        
-                        <p>Trade</p>
-                        <p>Earn</p>
-                        <p>NFT Marketplace</p>
+                        <div>
+                <p>Trade</p>
+                <img alt="lightswap" src={MenuDown} />
+                                        </div>
+
+                                        <div>
+                <p>Earn</p>
+                <img alt="lightswap" src={MenuDown} />
+                                        </div>
+
+                                        <div>
+                <p>NFT Marketplace</p>
+                <img alt="lightswap" src={MenuDown} />
+                        </div>
+                      
                     
                 </div>
                 <div className="page-buttons">
@@ -93,7 +121,12 @@ export const App  = () => {
     {
         renderConnectWallet()
     }
-    {renderMenu()}
+    {
+        renderMenu()
+        }
+        {
+            renderSettingsModal()
+        }
     {/* home page */}
         <div className="home-page"
             
@@ -106,7 +139,9 @@ export const App  = () => {
                     <h2 className="form-header">Swap</h2>
                     <div className="form-container-icon">
                         
- <img alt="lightswap"src={SettingIcon}/>
+ <img onClick={()=>{
+     setShowSettingsModal(!showSettingsModal)
+ }} alt="lightswap"src={SettingIcon}/>
                         <img alt="lightswap"src={RefreshIcon}/>
                         
                        
@@ -139,17 +174,21 @@ export const App  = () => {
                     <div className="form-balance">
   <p >Balance: 1.3112</p>
                     </div>
-                <div className="form-container-button">
+                <div
+                onClick={()=>{
+                        setShowConnectWallet(!showConnectWallet)
+                    }}
+                 className="form-container-button">
                     <p>Connect Wallet</p>
                 </div>
                 <div className="form-bottom-text">
                     <p className="form-bottom-text-heading">Slippage Tolerance</p>
-                    <p className="form-bottom-text-figure">o.23</p>
+                    <p className="form-bottom-text-figure">0.23</p>
                 </div>
                 <div className="form-bottom-text">
                     
                     <p className="form-bottom-text-heading">Minimum received</p>
-                    <p className="form-bottom-text-figure">o.23</p>
+                    <p className="form-bottom-text-figure">0.23</p>
                     
                 </div>
                 </div>
