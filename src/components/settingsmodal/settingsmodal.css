@@ -151,10 +151,12 @@ height: 40px;
 }
 
 .transaction-speed-text{
-  padding: 5px 17px;
+  padding: 3px;
 margin: 3px;
-
-width: 89px;
+justify-content: center;
+align-items: center;
+display: flex;
+width: 100px;
 height: 40px;
 
 

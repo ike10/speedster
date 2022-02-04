@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 //  import ReactDOM from 'react-dom';
 // import mystyles from './mystyles.module.css';
-import './settingsmodal.css'
+import './chart.css'
 import '../../App.css'
 // import LightSwap from '../../images/homepage/LightSwap.svg'
 // import BinanceIcon from '../../images/homepage/binance.svg'
@@ -12,7 +12,7 @@ import WhiteBack from '../../images/homepage/whiteback.svg'
 import Back from '../../images/homepage/Back.svg'
 
 
-export const SettingsModal  = ({closeModal}) => {
+export const ChartComponent  = ({closeModal}) => {
  
     const [lightMode, setLightMode] = useState(false) 
   const dayMode = {
@@ -88,13 +88,13 @@ export const SettingsModal  = ({closeModal}) => {
                 <p className="transaction-speed-header">Transaction Speed</p>
                <div className="transaction-speed-container">
                <div className="transaction-speed-text">
-<p >1 min</p>
+<p >0.5%</p>
                </div>
 <div className="transaction-speed-text">
-<p >10 mins</p>
+<p >0.5%</p>
                </div>
                     <div className="transaction-speed-text">
-<p >20 mins</p>
+<p >0.5%</p>
                </div>
                </div>
 
@@ -118,4 +118,4 @@ export const SettingsModal  = ({closeModal}) => {
   
  
 }
-export default SettingsModal;
+export default ChartComponent;

@@ -201,6 +201,13 @@ width: 140px;
     margin-top: 2px;
     margin-bottom: 2px;
 }
+.switch-icon{
+    cursor: pointer;
+}
+.switch-icon:hover{
+    opacity: 0.5;
+}
+
 .form-select{
     width: 342px;
     height: 70px;
@@ -418,7 +425,6 @@ color: #FF0000;
 height: 317px;
  margin-top: 10px;
 
-background: linear-gradient(180deg, #FEC60D 0%, rgba(254, 198, 13, 0) 100%);
 }
 
 .chart-button{

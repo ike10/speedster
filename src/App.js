@@ -3,7 +3,7 @@ import React, { useState } from "react";
 // import mystyles from './mystyles.module.css';
 import './App.css'
 
-import LightSwap from '../src/images/homepage/LightSwap.svg'
+import LightSwap from '../src/images/homepage/Lightswaplogo.svg'
 import SettingIcon from '../src/images/homepage/Vectorsettings.svg'
 import RefreshIcon from '../src/images/homepage/Vectorrefresh.svg'
 import BTCIcon from '../src/images/homepage/BTC - Bitcoin.svg'
@@ -14,6 +14,7 @@ import SwitchHorizontal from '../src/images/homepage/switch-horizonal.svg'
 import Ethereum from '../src/images/homepage/ethereum.svg'
 import Polygon from '../src/images/homepage/polygon.svg'
 import Avalance from '../src/images/homepage/avalanche logo.svg'
+import ChartSVG from '../src/images/homepage/chart.svg'
 
 import BinanceIcon from '../src/images/homepage/binance.svg'
 import ConnectModal from './components/modal/modal'
@@ -22,7 +23,14 @@ export const App  = () => {
  const [showConnectWallet, setShowConnectWallet] = useState(false)
   const [showMenu, setShowMenu] = useState(false)
   const [showSettingsModal, setShowSettingsModal] = useState(false)
+ const [fromCurrency, setFromCurrency] = useState('BTC')
+ const [fromCurrencySymbol, setFromCurrencySymbol] = useState(BTCIcon)
 
+ const [toCurrency, setToCurrency] = useState('BNB')
+  const [toCurrencySymbol, setToCurrencySymbol] = useState(BNBIcon)
+ const [fromAmount, setFromAmount] = useState('')
+ const [toAmount, setToAmount] = useState('')
+ 
   const renderSettingsModal = ()=>{
       if(showSettingsModal){
           return(
@@ -150,25 +158,45 @@ export const App  = () => {
                         From
                     </p>
                     <div className="form-select">
-                        <img alt="lightswap"src={BTCIcon}  className="form-select-icon"/>
-                        <p>BTC</p>
-                        <input placeholder="0.123" className="form-select-input"/>
+                        <img alt="lightswap"src={fromCurrencySymbol}  className="form-select-icon"/>
+                        <p>{fromCurrency}</p>
+                        <input  
+                            value={fromAmount}
+                            onChange={(e)=>{
+                                e.preventDefault()
+                                setFromAmount(e.target.value)
+                            }} placeholder="0.123" className="form-select-input"/>
   
                     </div>
                     <div className="form-balance">
   <p >Balance: 1.3112</p>
                     </div>
                   
-                    <div className="switch-icon-container">
+                    <div    
+                    onClick={()=>{
+                        setFromAmount(toAmount)
+                        setToAmount(fromAmount)
+                        setFromCurrency(toCurrency)
+                        setToCurrency(fromCurrency)
+                        setFromCurrencySymbol(toCurrencySymbol)
+                        setToCurrencySymbol(fromCurrencySymbol)
+                    }}
+                     className="switch-icon-container">
                         <img alt="lightswap"src={Switch} className="switch-icon"/>
                     </div>
                     <p className="form-label">
                         To
                     </p>
                     <div className="form-select">
-                        <img alt="lightswap"src={BNBIcon} className="form-select-icon"/>
-                        <p>BNB</p>
-                        <input placeholder="0.123" className="form-select-input"/>
+                        <img alt="lightswap"src={toCurrencySymbol} className="form-select-icon"/>
+                        <p>{toCurrency}</p>
+                        <input 
+                        value={toAmount}
+                        onChange={(e)=>{
+                            e.preventDefault()
+                            setToAmount(e.target.value)
+                        }}
+                        placeholder="0.123" className="form-select-input"/>
   
                     </div>
                     <div className="form-balance">
@@ -221,7 +249,7 @@ export const App  = () => {
                     </div>
                 </div>
                 <div className="chart-container">
-
+                    <img alt="chart" src={ChartSVG} />
                 </div>
                 <div className="chart-button">
 

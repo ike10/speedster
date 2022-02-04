@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.11e3cab5.css",
-    "main.js": "/static/js/main.b26c5413.js",
+    "main.css": "/static/css/main.be8f367e.css",
+    "main.js": "/static/js/main.ebad3701.js",
     "static/js/787.c275f0e4.chunk.js": "/static/js/787.c275f0e4.chunk.js",
     "static/media/avalanche logo.svg": "/static/media/avalanche logo.b7124d56aec8111b7eabc28aee213b71.svg",
     "static/media/toggleday.svg": "/static/media/toggleday.bc83b7be1ae33c33ccc8d80fd825a5d6.svg",
@@ -15,10 +15,11 @@
     "static/media/togglenight.svg": "/static/media/togglenight.53be363028280fff53010feae5ddca7e.svg",
     "static/media/ethereum.svg": "/static/media/ethereum.7121c51db5ab782cd883652fdd06fc55.svg",
     "static/media/BNB - BNB.svg": "/static/media/BNB - BNB.853aba16ee5a1d888629d0eac7ac9ba9.svg",
-    "static/media/LightSwap.svg": "/static/media/LightSwap.46b25c16e9fed139b5ede4aa720c6a90.svg",
+    "static/media/Lightswaplogo.svg": "/static/media/Lightswaplogo.150b7636ca5e3f6d8bb832c2acf043c4.svg",
     "static/media/Vectorsettings.svg": "/static/media/Vectorsettings.2beafac1dd00e44f88d586f0737d77fb.svg",
-    "index.html": "/index.html",
+    "static/media/chart.svg": "/static/media/chart.9a214268825f86d23de2e07c6ef9c622.svg",
     "static/media/Vectorrefresh.svg": "/static/media/Vectorrefresh.e85dc98dc4e000995395a4239489818c.svg",
+    "index.html": "/index.html",
     "static/media/Cancel.svg": "/static/media/Cancel.fa5a45cf9b18733bd9ad2c6bf5106866.svg",
     "static/media/whiteback.svg": "/static/media/whiteback.0302625b5733e0096fd02dcf4c252290.svg",
     "static/media/switch-horizonal.svg": "/static/media/switch-horizonal.c83d2a0a4b6f940c6d2585748b315045.svg",
@@ -26,12 +27,12 @@
     "static/media/formOverlay.svg": "/static/media/formOverlay.85a8f530d5deaf0f6d06.svg",
     "static/media/Vector.svg": "/static/media/Vector.1dfa64d9aaa8b4260908114dae0d3ec4.svg",
     "static/media/menudown.svg": "/static/media/menudown.cce98de9fb55b624f71f97505eba41d5.svg",
-    "main.11e3cab5.css.map": "/static/css/main.11e3cab5.css.map",
-    "main.b26c5413.js.map": "/static/js/main.b26c5413.js.map",
+    "main.be8f367e.css.map": "/static/css/main.be8f367e.css.map",
+    "main.ebad3701.js.map": "/static/js/main.ebad3701.js.map",
     "787.c275f0e4.chunk.js.map": "/static/js/787.c275f0e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11e3cab5.css",
-    "static/js/main.b26c5413.js"
+    "static/css/main.be8f367e.css",
+    "static/js/main.ebad3701.js"
   ]
 }
