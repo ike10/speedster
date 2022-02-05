@@ -4,34 +4,27 @@ import React, { useState } from "react";
 import './App.css'
 
 import LightSwap from '../src/images/homepage/Lightswaplogo.svg'
-import SettingIcon from '../src/images/homepage/Vectorsettings.svg'
-import RefreshIcon from '../src/images/homepage/Vectorrefresh.svg'
-import BTCIcon from '../src/images/homepage/BTC - Bitcoin.svg'
-import BNBIcon from '../src/images/homepage/BNB - BNB.svg'
-import Switch from '../src/images/homepage/Vector.svg'
+import Back from '../src/images/homepage/Back.svg'
+import SpeedstarLogo from '../src/images/homepage/speedster_logo.svg'
 import MenuDown from '../src/images/homepage/menudown.svg'
-import SwitchHorizontal from '../src/images/homepage/switch-horizonal.svg'
-import Ethereum from '../src/images/homepage/ethereum.svg'
-import Polygon from '../src/images/homepage/polygon.svg'
-import Avalance from '../src/images/homepage/avalanche logo.svg'
-import ChartSVG from '../src/images/homepage/chart.svg'
+import WelcomeHeader from '../src/images/homepage/welcome-header.svg'
+import TokenomicsHeader from '../src/images/homepage/tokenomics-header.svg'
 import MenuBar from '../src/images/homepage/menubar.svg'
-import Back from '../src/images/homepage/whiteback.svg'
-import BinanceIcon from '../src/images/homepage/binance.svg'
-import ConnectModal from './components/modal/modal'
-import SettingsModal from './components/settingsmodal/settingsmodal'
+import TwitterIcon from '../src/images/homepage/twittericon.svg'
+import TelegramIcon from '../src/images/homepage/telegramicon.svg'
+import MediumIcon from '../src/images/homepage/mediumicon.svg'
+import MenuIcon from '../src/images/homepage/menu.svg'
+
+import HeroImage from '../src/images/homepage/hero-image.svg'
+import TokenomicsImage from '../src/images/homepage/tokenomicsimage.svg'
+import DisclaimerImage from '../src/images/homepage/disclaimer-image.svg'
+import CommunityImage from '../src/images/homepage/community-image.svg'
+import CoinsImage from '../src/images/homepage/coinsImage.svg'
+import CopyrightImage from '../src/images/homepage/copyright.svg'
+
 export const App  = () => {
     const [mobileMenu, setShowMobileMenu] = useState(false)
- const [showConnectWallet, setShowConnectWallet] = useState(false)
-  const [showMenu, setShowMenu] = useState(false)
-  const [showSettingsModal, setShowSettingsModal] = useState(false)
- const [fromCurrency, setFromCurrency] = useState('BTC')
- const [fromCurrencySymbol, setFromCurrencySymbol] = useState(BTCIcon)
 
- const [toCurrency, setToCurrency] = useState('BNB')
-  const [toCurrencySymbol, setToCurrencySymbol] = useState(BNBIcon)
- const [fromAmount, setFromAmount] = useState('')
- const [toAmount, setToAmount] = useState('')
 
  const renderMobileMenu = () =>{
      
@@ -48,43 +41,35 @@ export const App  = () => {
                     <img alt="back"src={Back} />
                 </div>
                 <div className="mobile-page-logo">
-                    <img alt="lightswap"src={LightSwap} />
+                    <img alt="speedstar"src={SpeedstarLogo} />
                 </div>
                 <div className="mobile-page-links">
-                        <div>
-                <p>Trade</p>
-                <img alt="lightswap" src={MenuDown} />
+                       <div>
+                <p>Buy</p>
+               
                                         </div>
 
                                         <div>
-                <p>Earn</p>
-                <img alt="lightswap" src={MenuDown} />
+                <p>Tokenomics</p>
+                
                                         </div>
 
                                         <div>
-                <p>NFT Marketplace</p>
-                <img alt="lightswap" src={MenuDown} />
+                <p>FAQ</p>
+                
+                        </div>
+                           <div>
+                <p>The Speedster Code</p>
+                
+                        </div>
+                           <div>
+                <p>Roadmap</p>
+                
                         </div>
                       
                     
                 </div>
-                <div className="mobile-page-buttons">
-                    <div 
-                    onClick={()=>{
-                        setShowMenu(!showMenu)
-                    }}
-                    id="mobile-binance-button" className="mobile-header-button">
-                        <img alt="lightswap"src={BinanceIcon} />
-                        <p>Binance</p>
-                        
-                    </div>
-                    <div onClick={()=>{
-                        setShowConnectWallet(!showConnectWallet)
-                    }} id="mobile-connect-wallet-button" className="mobile-header-button">
-                       
-                        <p>Connect Wallet</p>
-                    </div>
-                </div>
+               
             
         </nav>
          )
@@ -93,54 +78,8 @@ export const App  = () => {
      }
  }
  
-  const renderSettingsModal = ()=>{
-      if(showSettingsModal){
-          return(
-              <SettingsModal closeModal={()=>{
-                  setShowSettingsModal(!showSettingsModal)
-              }}/>
-          )
-      }else{
-          return null
-      }
-  }
- const renderConnectWallet =()=>{
-     if(showConnectWallet){
-         return(
-             <ConnectModal closeModal={()=>{
-                setShowConnectWallet(!showConnectWallet)
-             }}/>
-         )
-     }else{
-         return null
-     }
- }
- const renderMenu=()=>{
-     if(showMenu){
-         return(
-             <div className="menu-container">
-                <div className="menu-item">
-                    <img alt="lightswap"src={BNBIcon}/>
-                    <p>Binance</p>
-                </div>
-                <div className="menu-item">
-                    <img alt="lightswap"src={Ethereum}/>
-                    <p>Ethereum</p>
-                </div>
-                <div className="menu-item">
-                    <img alt="lightswap"src={Polygon}/>
-                    <p>Polygon</p>
-                </div>
-                <div className="menu-item">
-                    <img alt="lightswap"src={Avalance}/>
-                    <p>Avalanche</p>
-                </div>
-             </div>
-         )
-     }else{
-         return null
-     }
- }
+
+
   
     return (
     <div className="main-body">
@@ -150,7 +89,7 @@ export const App  = () => {
     }
     <nav className="mobile-header-container"> 
         <div className="mobile-page-logo">
-                    <img alt="lightswap"src={LightSwap} />
+                    <img alt="speedstar"src={SpeedstarLogo} />
                 </div>
 
                 <div onClick={()=>{
@@ -158,194 +97,174 @@ export const App  = () => {
                     setShowMobileMenu(!mobileMenu)
                     
                 }} className="open-menu">
-                    <img alt="menu"src={MenuBar} />
+                    <img alt="menu"src={MenuIcon} />
     
                 </div>
     </nav>
         <nav className="header-container">
             
                 <div className="page-logo">
-                    <img alt="lightswap"src={LightSwap} />
+                    <img alt="speedstar"src={SpeedstarLogo} />
                 </div>
                 <div className="page-links">
                         <div>
-                <p>Trade</p>
-                <img alt="lightswap" src={MenuDown} />
+                <p>Buy</p>
+               
                                         </div>
 
                                         <div>
-                <p>Earn</p>
-                <img alt="lightswap" src={MenuDown} />
+                <p>Tokenomics</p>
+                
                                         </div>
 
                                         <div>
-                <p>NFT Marketplace</p>
-                <img alt="lightswap" src={MenuDown} />
+                <p>FAQ</p>
+                
+                        </div>
+                           <div>
+                <p>The Speedster Code</p>
+                
+                        </div>
+                           <div>
+                <p>Roadmap</p>
+                
                         </div>
                       
                     
                 </div>
-                <div className="page-buttons">
-                    <div 
-                    onClick={()=>{
-                        setShowMenu(!showMenu)
-                    }}
-                    id="binance-button" className="header-button">
-                        <img alt="lightswap"src={BinanceIcon} />
-                        <p>Binance</p>
-                        
-                    </div>
-                    <div onClick={()=>{
-                        setShowConnectWallet(!showConnectWallet)
-                    }} id="connect-wallet-button" className="header-button">
-                       
-                        <p>Connect Wallet</p>
-                    </div>
-                </div>
+                
             
         </nav>
     {/* end of heder */}
-    {
-        renderConnectWallet()
-    }
-    {
-        renderMenu()
-        }
-        {
-            renderSettingsModal()
-        }
+   
     {/* home page */}
         <div className="home-page"
-            onClick={()=>[
-                setShowMenu(false)
-            ]}
+            
         >
-            <div className="home-form">
-              <div className="form-overlay"
-             
-              >
-                <div className="form-container">
-                    <h2 className="form-header">Swap</h2>
-                    <div className="form-container-icon">
-                        
- <img onClick={()=>{
-     setShowSettingsModal(!showSettingsModal)
- }} alt="lightswap"src={SettingIcon}/>
-                        <img alt="lightswap"src={RefreshIcon}/>
-                        
-                       
-                    </div>
-                    <p className="form-label">
-                        From
-                    </p>
-                    <div className="form-select">
-                        <img alt="lightswap"src={fromCurrencySymbol}  className="form-select-icon"/>
-                        <p>{fromCurrency}</p>
-                        <input  
-                            value={fromAmount}
-                            onChange={(e)=>{
-                                e.preventDefault()
-                                setFromAmount(e.target.value)
-                            }} placeholder="0.123" className="form-select-input"/>
-  
-                    </div>
-                    <div className="form-balance">
-  <p >Balance: 1.3112</p>
-                    </div>
-                  
-                    <div    
-                    onClick={()=>{
-                        setFromAmount(toAmount)
-                        setToAmount(fromAmount)
-                        setFromCurrency(toCurrency)
-                        setToCurrency(fromCurrency)
-                        setFromCurrencySymbol(toCurrencySymbol)
-                        setToCurrencySymbol(fromCurrencySymbol)
-                    }}
-                     className="switch-icon-container">
-                        <img alt="lightswap"src={Switch} className="switch-icon"/>
-                    </div>
-                    <p className="form-label">
-                        To
-                    </p>
-                    <div className="form-select">
-                        <img alt="lightswap"src={toCurrencySymbol} className="form-select-icon"/>
-                        <p>{toCurrency}</p>
-                        <input 
-                        value={toAmount}
-                        onChange={(e)=>{
-                            e.preventDefault()
-                            setToAmount(e.target.value)
-                        }}
-                        placeholder="0.123" className="form-select-input"/>
-  
-                    </div>
-                    <div className="form-balance">
-  <p >Balance: 1.3112</p>
-                    </div>
-                <div
-                onClick={()=>{
-                        setShowConnectWallet(!showConnectWallet)
-                    }}
-                 className="form-container-button">
-                    <p>Connect Wallet</p>
-                </div>
-                <div className="form-bottom-text">
-                    <p className="form-bottom-text-heading">Slippage Tolerance</p>
-                    <p className="form-bottom-text-figure">0.23</p>
-                </div>
-                <div className="form-bottom-text">
-                    
-                    <p className="form-bottom-text-heading">Minimum received</p>
-                    <p className="form-bottom-text-figure">0.23</p>
-                    
-                </div>
-                </div>
+
+        <div className="welcome-section">
+                <img className="welcome-header" src={WelcomeHeader} alt='welcome-header'/>
                
-            </div>
-            </div>
-            {/* the chart */}
-            <div className="home-chart">
-             <div className="home-chart-container">
-                <div className="chart-info">
-                    <div className="chart-info-logo">
-                    <div className="chart-navbar">
-                        <img alt="lightswap"src={BNBIcon}/>
-                        <img alt="lightswap"src={BTCIcon}/>
-                        <p>BTC/BNB</p>
-                        <img alt="lightswap"src={SwitchHorizontal}/>
+                <h2 className="welcome-text">A decentralised meme token moving at lightening speed</h2>
+                <p className="welcome-subtext">Built as a decentralized community-focused token with charity and development activities in view. Welcome to The SpeedSter Token!!!</p>
+                <div className="welcome-call-to-action">
+                    <div className="buy-token-button">
+                        <p>BUY SPEEDSTER</p>
                     </div>
-                    <div className="time-card-container">
-                        <div className="time-card">
-                            <p>1H</p>
-                            <p>24H</p>
-                            <p>1W</p>
-                        </div>
-                    </div>
-                        
-                    </div>
-                    <div className="chart-info-rate">
-                        <p className="chart-info-price">$95</p>
-                        <p className="chart-info-percentage">(-8.14%)</p>
+                    <div className="learn-more-button">
+                        <p>Learn more</p>
                     </div>
                 </div>
-                <div className="chart-container">
-                    <img alt="chart" src={ChartSVG} />
+        </div> 
+        <div className="welcome-image">
+                <p></p>{/* <img src={HeroImage} alt='hero image' /> */}
+        </div> 
+        </div>
+        {/* end of home page */}
+
+        {/* Tokenomics page */}
+        <div className="tokenomics-page">
+        <div className="tokenomics-section">
+  <img className="tokenomics-header" src={TokenomicsHeader} alt='tokenomics-header'/>
+               <div className="tokenomics-list">
+ <div className="tokenomics-item">
+                    <p>Token Name - TheSpeedSter</p>
                 </div>
-                <div className="chart-button">
+                <div className="tokenomics-item">
+                    <p>Ticker- SSTER</p>
+                </div>
+                <div className="tokenomics-item">
+                    <p>Max Supply - 1 Quadrillion</p>
+                </div>
+                <div className="tokenomics-item">
+                    <p>Burnt - 840.5 Trillion</p>
+                </div>
+                <div className="tokenomics-item">
+                    <p>Available Tokens - 159.5 Trillion</p>
+                </div>
+                <div className="tokenomics-item">
+                    <p>Liquidity - 51.1%</p>
+                </div>
+                <div className="tokenomics-item">
+                    <p>Marketing - 26.6</p>
+                </div>
+                <div className="tokenomics-item">
+                    <p>Development - 14.7%</p>
+                </div>
+                <div className="tokenomics-item">
+                    <p>Charity- 7.8%</p>
+                </div>
+               </div>
+
+               <div className="tokenomics-button">
+                   <p>Download Whitepaper</p>
+               </div>
+               
+        </div>
+        <div className="tokenomics-image">
+                <img src={CoinsImage} alt='tokenomics'/>
+        </div>
+      
+        </div>
+        {/* end of tokenomics section */}
+
+        {/* start of disclaimer page */}
+        <div className="disclaimer-page" >
+            <div className="disclaimer-image">
+                <img src={DisclaimerImage} alt="disclaimer" />
+            </div>
+            <div className="disclaimer-section">
+                <p className="disclaimer-text" >No part of this document should be construed as financial advice nor as a guarantee of the future performance for SpeedSter or any other investment mentioned herein. 
+
+Cryptocurrencies are extremely speculative and are subject to powerful market forces and fluctuations outside of the SpeedSter Finance team. Therefore, it is your responsibility to take all necessary security precautions when purchasing cryptocurrencies.</p>
+            <div className="disclaimer-button">
+                <p>Learn More</p>
+            </div>
+            </div>
+        </div>
+        {/* end of disclaimer page */}
+        {/* start of community page */}
+        <div className="community-page">
+            <div className="community-text">
+                <p>The SpeedSter as a community grows and develops stronger and better every day.</p>
+            </div>
+            <div className="community-image">
+                <img src={CommunityImage} alt="community"/>
+            </div>
+        </div>
+        {/* end of community page */}
+        
+        {/* start of footer section */}
+                <div className="footer-section">
+                    <p className="footer-text">Follow our social media platforms for up-to-date information</p>
+                    <div  className="footer-icon-section">
+<a href="https://telegram.com" className="footer-icon">
+                        <img src={TelegramIcon} alt="footer"/>
+                        <p>Telegram</p>
+                    </a>
+                    <a href="https://twitter.com" className="footer-icon">
+                        <img src={TwitterIcon} alt="footer"/>
+                        <p>Twitter</p>
+                    </a>
+                    <a href="https://medium.com" className="footer-icon">
+                        <img src={MediumIcon} alt="footer"/>
+                        <p>Medium</p>
+                    </a>
+                    </div>
+                    <div className="footer-copyright">
+                        <img src={CopyrightImage} alt='copyright'/>
+                        <p>Speedster 2022</p>
+                    </div>
+                    
 
                 </div>
-           </div>
-            </div>
-            
-            {/* end of the chat */}
-            
-        </div>
-        {/* end of homr page */}
-       
+        {/* end of footer section */}
+
+      
         
 
     </div>
+   
   
     )
   
