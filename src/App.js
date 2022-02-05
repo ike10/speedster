@@ -3,20 +3,18 @@ import React, { useState } from "react";
 // import mystyles from './mystyles.module.css';
 import './App.css'
 
-import LightSwap from '../src/images/homepage/Lightswaplogo.svg'
+
 import Back from '../src/images/homepage/Back.svg'
 import SpeedstarLogo from '../src/images/homepage/speedster_logo.svg'
-import MenuDown from '../src/images/homepage/menudown.svg'
+
 import WelcomeHeader from '../src/images/homepage/welcome-header.svg'
 import TokenomicsHeader from '../src/images/homepage/tokenomics-header.svg'
-import MenuBar from '../src/images/homepage/menubar.svg'
+
 import TwitterIcon from '../src/images/homepage/twittericon.svg'
 import TelegramIcon from '../src/images/homepage/telegramicon.svg'
 import MediumIcon from '../src/images/homepage/mediumicon.svg'
 import MenuIcon from '../src/images/homepage/menu.svg'
 
-import HeroImage from '../src/images/homepage/hero-image.svg'
-import TokenomicsImage from '../src/images/homepage/tokenomicsimage.svg'
 import DisclaimerImage from '../src/images/homepage/disclaimer-image.svg'
 import CommunityImage from '../src/images/homepage/community-image.svg'
 import CoinsImage from '../src/images/homepage/coinsImage.svg'
