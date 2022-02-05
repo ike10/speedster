@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.be8f367e.css",
-    "main.js": "/static/js/main.ebad3701.js",
+    "main.css": "/static/css/main.95f5fb9a.css",
+    "main.js": "/static/js/main.0de900ae.js",
     "static/js/787.c275f0e4.chunk.js": "/static/js/787.c275f0e4.chunk.js",
     "static/media/avalanche logo.svg": "/static/media/avalanche logo.b7124d56aec8111b7eabc28aee213b71.svg",
     "static/media/toggleday.svg": "/static/media/toggleday.bc83b7be1ae33c33ccc8d80fd825a5d6.svg",
@@ -26,13 +26,14 @@
     "static/media/Back.svg": "/static/media/Back.e962a90ac0a863dd4b8140891436d2c4.svg",
     "static/media/formOverlay.svg": "/static/media/formOverlay.85a8f530d5deaf0f6d06.svg",
     "static/media/Vector.svg": "/static/media/Vector.1dfa64d9aaa8b4260908114dae0d3ec4.svg",
+    "static/media/menubar.svg": "/static/media/menubar.27dadae1c3a52787908cf181d81bc6d3.svg",
     "static/media/menudown.svg": "/static/media/menudown.cce98de9fb55b624f71f97505eba41d5.svg",
-    "main.be8f367e.css.map": "/static/css/main.be8f367e.css.map",
-    "main.ebad3701.js.map": "/static/js/main.ebad3701.js.map",
+    "main.95f5fb9a.css.map": "/static/css/main.95f5fb9a.css.map",
+    "main.0de900ae.js.map": "/static/js/main.0de900ae.js.map",
     "787.c275f0e4.chunk.js.map": "/static/js/787.c275f0e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be8f367e.css",
-    "static/js/main.ebad3701.js"
+    "static/css/main.95f5fb9a.css",
+    "static/js/main.0de900ae.js"
   ]
 }
