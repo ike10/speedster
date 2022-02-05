@@ -15,11 +15,13 @@ import Ethereum from '../src/images/homepage/ethereum.svg'
 import Polygon from '../src/images/homepage/polygon.svg'
 import Avalance from '../src/images/homepage/avalanche logo.svg'
 import ChartSVG from '../src/images/homepage/chart.svg'
-
+import MenuBar from '../src/images/homepage/menubar.svg'
+import Back from '../src/images/homepage/whiteback.svg'
 import BinanceIcon from '../src/images/homepage/binance.svg'
 import ConnectModal from './components/modal/modal'
 import SettingsModal from './components/settingsmodal/settingsmodal'
 export const App  = () => {
+    const [mobileMenu, setShowMobileMenu] = useState(false)
  const [showConnectWallet, setShowConnectWallet] = useState(false)
   const [showMenu, setShowMenu] = useState(false)
   const [showSettingsModal, setShowSettingsModal] = useState(false)
@@ -30,6 +32,66 @@ export const App  = () => {
   const [toCurrencySymbol, setToCurrencySymbol] = useState(BNBIcon)
  const [fromAmount, setFromAmount] = useState('')
  const [toAmount, setToAmount] = useState('')
+
+ const renderMobileMenu = () =>{
+     
+     if (mobileMenu){
+         return(
+<nav className="mobile-menu"onClick={()=>{
+                     
+                    }}>
+                         <div className="mobile-close"
+                         onClick={()=>{
+                             setShowMobileMenu(!mobileMenu)
+                         }}
+                         >
+                    <img alt="back"src={Back} />
+                </div>
+                <div className="mobile-page-logo">
+                    <img alt="lightswap"src={LightSwap} />
+                </div>
+                <div className="mobile-page-links">
+                        <div>
+                <p>Trade</p>
+                <img alt="lightswap" src={MenuDown} />
+                                        </div>
+
+                                        <div>
+                <p>Earn</p>
+                <img alt="lightswap" src={MenuDown} />
+                                        </div>
+
+                                        <div>
+                <p>NFT Marketplace</p>
+                <img alt="lightswap" src={MenuDown} />
+                        </div>
+                      
+                    
+                </div>
+                <div className="mobile-page-buttons">
+                    <div 
+                    onClick={()=>{
+                        setShowMenu(!showMenu)
+                    }}
+                    id="mobile-binance-button" className="mobile-header-button">
+                        <img alt="lightswap"src={BinanceIcon} />
+                        <p>Binance</p>
+                        
+                    </div>
+                    <div onClick={()=>{
+                        setShowConnectWallet(!showConnectWallet)
+                    }} id="mobile-connect-wallet-button" className="mobile-header-button">
+                       
+                        <p>Connect Wallet</p>
+                    </div>
+                </div>
+            
+        </nav>
+         )
+     }else{
+         return null
+     }
+ }
  
   const renderSettingsModal = ()=>{
       if(showSettingsModal){
@@ -83,6 +145,23 @@ export const App  = () => {
     return (
     <div className="main-body">
     {/* header */}
+    {
+        renderMobileMenu()
+    }
+    <nav className="mobile-header-container"> 
+        <div className="mobile-page-logo">
+                    <img alt="lightswap"src={LightSwap} />
+                </div>
+
+                <div onClick={()=>{
+                   
+                    setShowMobileMenu(!mobileMenu)
+                    
+                }} className="open-menu">
+                    <img alt="menu"src={MenuBar} />
+    
+                </div>
+    </nav>
         <nav className="header-container">
             
                 <div className="page-logo">
@@ -137,7 +216,9 @@ export const App  = () => {
         }
     {/* home page */}
         <div className="home-page"
-            
+            onClick={()=>[
+                setShowMenu(false)
+            ]}
         >
             <div className="home-form">
               <div className="form-overlay"

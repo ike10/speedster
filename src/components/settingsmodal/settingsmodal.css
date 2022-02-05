@@ -5,7 +5,6 @@
     top: 100px;
     left: 0px;
     right: 0px;
-  overflow-y: scroll;
     background-color: rgb(70, 70, 70);
     z-index: 70;
   
@@ -121,6 +120,13 @@ height: 40px;
 
 background: #FEC60D;
 border-radius: 12px;
+cursor: pointer;
+}
+
+.settings-slippage-text:hover{
+
+background: #ca9d09;
+
 }
 
 .settings-slippage-text p{
@@ -158,12 +164,16 @@ align-items: center;
 display: flex;
 width: 100px;
 height: 40px;
-
-
-/* LightEx yellow */
+cursor: pointer;
 
 background: #FEC60D;
 border-radius: 12px;
+}
+
+.transaction-speed-text:hover{
+  
+background: #a88206;
+
 }
 
 .transaction-speed-text p{
@@ -199,4 +209,31 @@ text-align: center;
 
 .settings-help-link{
     color: #FEC60D;
+}
+
+
+@media only screen and (max-width: 800px)  {
+    .settings-modal{
+    height: 895px;
+     
+}
+
+.settings-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+width: 100%;
+height: 593px;
+left: 0px;
+top: 0px;
+padding: 10px;
+padding-left: 10px;
+
+/* LightEx yellow */
+
+border: 2px solid #FEC60D;
+box-sizing: border-box;
+border-radius: 30px;
+}
 }

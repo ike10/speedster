@@ -4,8 +4,8 @@
   /* margin-left: 30; */
   width: 100vw;
  margin:0 auto;
- overflow-x: hidden;
- font-family:'Circular Std'
+ overflow-x:hidden;
+ font-family:'Circular Std';
  
 }
 a{
@@ -18,6 +18,7 @@ p{
 .header-container{
     height: 132px;
     display: flex;
+    visibility: visible;
     justify-content: center;
     align-items: center;
     color: #ffffff;
@@ -26,6 +27,33 @@ p{
     width: 100%;
     
 }
+
+.mobile-header-container{
+    display: none;
+    visibility: hidden;
+    flex-direction: row;
+    margin-bottom: 10px;
+    background-color: #000000;
+    width: 100%;
+    height: 5rem;
+    justify-items: center;
+    align-items: center;
+    padding-left: 1rem;
+    
+}
+.mobile-page-logo{
+    width: 80%;
+}
+.mobile-page-logo img{
+    width: 10rem;
+}
+.open-menu{
+    width: 2rem;
+    justify-items: flex-end;
+    align-items: flex-end;
+    
+}
+
 .page-logo{
     width: 20%;
     margin-left: 70px;
@@ -113,6 +141,8 @@ width: 140px;
 
 #binance-button p{
     font-size: 18px;
+    color: #ffffff;
+    z-index: 70;
 }
 
 #binance-button:hover{
@@ -318,12 +348,14 @@ color: #000000;
     position: relative;
     justify-content: center;
     align-items: center;
+    
 }
 .chart-info{
     display: flex;
     flex-direction: column;
     width: 461px;
     margin-bottom: 10px;
+    
    
 }
 .chart-info-logo{
@@ -485,5 +517,248 @@ color: #FFFFFF;
 transform: rotate(0.49deg);
 }
 
+
+@media only screen and (max-width: 800px)  {
+.header-container{
+    display:none;
+    visibility: hidden;
+    
+}
+
+.home-page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.home-form{
+    padding: 2px;
+    display: flex;
+    width: 100%;
+}
+
+.form-overlay{
+    height: 548px;
+    width: 500px;
+    
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-left: 00px;
+  
+}
+
+.form-container{
+   
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    
+  
+}
+
+.form-select{
+    width: 90%;
+    height: 70px;
+    left: 0px;
+    
+}
+
+
+.form-bottom-text{
+    
+    width: 90%;
+   
+}
+.form-container-button{
+    height: 70px;
+width: 90%;
+
+}
+
+.form-label{
+    
+     width: 90%;
+     margin-top: 4px;
+}
+
+
+.home-chart{
+    width: 100%;
+    padding-top: 80px;
+}
+
+.home-chart-container{
+    width: 100%;
+      height: 548px;
+   
+}
+
+.chart-info{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 10px;
+   
+}
+
+.chart-info-logo{
+    width: 90%;
+}
+
+.chart-container{
+    width: 90%;
+height: 317px;
+ margin-top: 10px;
+
+
+}
+
+.chart-container img{
+    width: 90%;
+}
+
+.chart-button{
+    width: 90%;
+    align-self: center;
+    display: flex;
+
+}
+.time-card{
+ 
+   margin-left: 70px;
+  
+   width: 106px;
+
+}
+
+.mobile-header-container{
+    display: flex;
+    visibility: visible;
+    
+    color: #ffffff;
+}
+
+.mobile-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    z-index: 70;
+    
+}
+.mobile-page-links{
+    color: #ffffff;
+}
+.mobile-page-links div{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    cursor: pointer;
+}
+.mobile-page-links p{
+ 
+height: 23px;
+font-style: normal;
+font-weight: 450;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.mobile-page-buttons{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.mobile-page-buttons div{
+    margin-top: 10px;
+    width: 170px;
+}
+
+.menu-container{
+  
+right: 50px;
+top: 380px;
+
+}
+
+.mobile-header-button{
+width: 180px;
+    height: 43px;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.mobile-close{
+    width: 90%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.mobile-close img{
+    width: 2rem;
+}
+
+
+#mobile-connect-wallet-button{
+background: rgba(254, 198, 13, 1);
+color: #000;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+width: 163px;
+display: flex;
+}
+
+#mobile-connect-wallet-button p{
+color: #000;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+}
+
+#connect-wallet-button:hover{
+    background: rgb(157, 122, 8);
+}
+
+#mobile-binance-button{
+background-color: rgba(43, 43, 43, 1);
+font-style: normal;
+align-items: center;
+justify-content: flex-start;
+cursor: pointer;
+width: 140px;
+display: flex;
+}
+
+#mobile-binance-button p{
+    font-size: 18px;
+    color: #ffffff;
+    z-index: 70;
+}
+
+#mobile-binance-button:hover{
+    background: rgb(79, 79, 79);
+}
+#mobile-binance-button img{
+    margin: 5px;
+}
+}
 
 
