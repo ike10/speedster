@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf67f43f.css",
-    "main.js": "/static/js/main.2f46e7b9.js",
+    "main.css": "/static/css/main.43bda5cb.css",
+    "main.js": "/static/js/main.d62e75e3.js",
     "static/js/787.c275f0e4.chunk.js": "/static/js/787.c275f0e4.chunk.js",
+    "static/media/Speedster-hero-gif.gif": "/static/media/Speedster-hero-gif.35b9f20d66cc0fc73db1.gif",
+    "static/media/herosvg.gif": "/static/media/herosvg.411d29bd937b45bf3238.gif",
     "static/media/background-home.svg": "/static/media/background-home.e6012703b5aca1018183.svg",
+    "static/media/community-image-gif.gif": "/static/media/community-image-gif.57f473eb26d8010b6fd2.gif",
     "static/media/coinsImage.svg": "/static/media/coinsImage.fc14438e65fd33fc423012c24c4f105c.svg",
-    "static/media/hero-image.svg": "/static/media/hero-image.968a0dc5178e3d850c96.svg",
-    "static/media/community-image.svg": "/static/media/community-image.8f0c6a589b9567190fb936f6952621fc.svg",
     "static/media/speedster_logo.svg": "/static/media/speedster_logo.6e2193f26a0bbba314954a228ff08fe9.svg",
     "static/media/welcome-header.svg": "/static/media/welcome-header.0f933da135a2cb1064dc15c747e1974c.svg",
     "static/media/disclaimer-image.svg": "/static/media/disclaimer-image.356c98fd47e35c40868cbd7c1a21f7e7.svg",
@@ -18,12 +19,12 @@
     "index.html": "/index.html",
     "static/media/Back.svg": "/static/media/Back.e962a90ac0a863dd4b8140891436d2c4.svg",
     "static/media/menu.svg": "/static/media/menu.dbd276684b88336e3e43932c6a77871f.svg",
-    "main.cf67f43f.css.map": "/static/css/main.cf67f43f.css.map",
-    "main.2f46e7b9.js.map": "/static/js/main.2f46e7b9.js.map",
+    "main.43bda5cb.css.map": "/static/css/main.43bda5cb.css.map",
+    "main.d62e75e3.js.map": "/static/js/main.d62e75e3.js.map",
     "787.c275f0e4.chunk.js.map": "/static/js/787.c275f0e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf67f43f.css",
-    "static/js/main.2f46e7b9.js"
+    "static/css/main.43bda5cb.css",
+    "static/js/main.d62e75e3.js"
   ]
 }
