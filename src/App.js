@@ -16,7 +16,7 @@ import MediumIcon from '../src/images/homepage/mediumicon.svg'
 import MenuIcon from '../src/images/homepage/menu.svg'
 
 import DisclaimerImage from '../src/images/homepage/disclaimer-image.svg'
-import CommunityImage from '../src/images/homepage/community-image.svg'
+import CommunityImage from '../src/images/homepage/community-image-gif.gif'
 import CoinsImage from '../src/images/homepage/coinsImage.svg'
 import CopyrightImage from '../src/images/homepage/copyright.svg'
 
@@ -213,7 +213,7 @@ export const App  = () => {
             </div>
             <div className="disclaimer-section">
                 <p className="disclaimer-text" >No part of this document should be construed as financial advice nor as a guarantee of the future performance for SpeedSter or any other investment mentioned herein. 
-
+<br/><br/>
 Cryptocurrencies are extremely speculative and are subject to powerful market forces and fluctuations outside of the SpeedSter Finance team. Therefore, it is your responsibility to take all necessary security precautions when purchasing cryptocurrencies.</p>
             <div className="disclaimer-button">
                 <p>Learn More</p>
