@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2304187.css",
+    "main.css": "/static/css/main.11eb33c2.css",
     "main.js": "/static/js/main.45cde807.js",
     "static/js/787.c275f0e4.chunk.js": "/static/js/787.c275f0e4.chunk.js",
     "static/media/Speedster-hero-gif.gif": "/static/media/Speedster-hero-gif.35b9f20d66cc0fc73db1.gif",
-    "static/media/herosvg.gif": "/static/media/herosvg.411d29bd937b45bf3238.gif",
     "static/media/background-home.svg": "/static/media/background-home.e6012703b5aca1018183.svg",
     "static/media/speedster-footer.gif": "/static/media/speedster-footer.e3a912f1e9be04b50813.gif",
     "static/media/coinsImage.svg": "/static/media/coinsImage.fc14438e65fd33fc423012c24c4f105c.svg",
@@ -19,12 +18,12 @@
     "index.html": "/index.html",
     "static/media/Back.svg": "/static/media/Back.e962a90ac0a863dd4b8140891436d2c4.svg",
     "static/media/menu.svg": "/static/media/menu.dbd276684b88336e3e43932c6a77871f.svg",
-    "main.e2304187.css.map": "/static/css/main.e2304187.css.map",
+    "main.11eb33c2.css.map": "/static/css/main.11eb33c2.css.map",
     "main.45cde807.js.map": "/static/js/main.45cde807.js.map",
     "787.c275f0e4.chunk.js.map": "/static/js/787.c275f0e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2304187.css",
+    "static/css/main.11eb33c2.css",
     "static/js/main.45cde807.js"
   ]
 }
