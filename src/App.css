@@ -683,11 +683,13 @@ margin-left: 10px;
 
 .tokenomics-page{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-left: 10px;
+    align-items: center;
+   
 }
 
 .tokenomics-section{
@@ -705,6 +707,9 @@ height: 47px;
 .tokenomics-image{
     width: 100%;
 height: 450px;
+margin-bottom: 10px;
+
+
 }
 
 .tokenomics-image img{
@@ -722,6 +727,7 @@ height: 450px;
     flex-direction: column;
     height: 120vh;
     padding: 10px;
+    margin-top: 10px;
   
 }
 
