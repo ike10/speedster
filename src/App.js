@@ -16,9 +16,11 @@ import MediumIcon from '../src/images/homepage/mediumicon.svg'
 import MenuIcon from '../src/images/homepage/menu.svg'
 
 import DisclaimerImage from '../src/images/homepage/disclaimer-image.svg'
-import CommunityImage from '../src/images/homepage/community-image-gif.gif'
+// import CommunityImage from '../src/images/homepage/speedster-footer.gif'
 import CoinsImage from '../src/images/homepage/coinsImage.svg'
 import CopyrightImage from '../src/images/homepage/copyright.svg'
+
+
 
 export const App  = () => {
     const [mobileMenu, setShowMobileMenu] = useState(false)
@@ -227,7 +229,7 @@ Cryptocurrencies are extremely speculative and are subject to powerful market fo
                 <p>The SpeedSter as a community grows and develops stronger and better every day.</p>
             </div>
             <div className="community-image">
-                <img src={CommunityImage} alt="community"/>
+                {/* <img src={CommunityImage} alt="community"/> */}
             </div>
         </div>
         {/* end of community page */}
