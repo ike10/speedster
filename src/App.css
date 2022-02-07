@@ -18,6 +18,7 @@ p{
 
 .header-container{
     height:  100px;
+    position: fixed;
     display: flex;
     visibility: visible;
     justify-content: center;
