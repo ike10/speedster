@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.025abeaf.css",
+    "main.css": "/static/css/main.2a722dfe.css",
     "main.js": "/static/js/main.2a11753d.js",
     "static/js/787.c275f0e4.chunk.js": "/static/js/787.c275f0e4.chunk.js",
     "static/media/Speedster-hero-gif.gif": "/static/media/Speedster-hero-gif.35b9f20d66cc0fc73db1.gif",
@@ -23,12 +23,12 @@
     "static/media/development.svg": "/static/media/development.e761ebad69120b5afb5bbd803fa3773b.svg",
     "static/media/liquidity.svg": "/static/media/liquidity.84f969470e4267f725fa69a7c93bb239.svg",
     "static/media/marketing.svg": "/static/media/marketing.1aa7ff1fcbf8cf7deffc14f8aac3d8a8.svg",
-    "main.025abeaf.css.map": "/static/css/main.025abeaf.css.map",
+    "main.2a722dfe.css.map": "/static/css/main.2a722dfe.css.map",
     "main.2a11753d.js.map": "/static/js/main.2a11753d.js.map",
     "787.c275f0e4.chunk.js.map": "/static/js/787.c275f0e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.025abeaf.css",
+    "static/css/main.2a722dfe.css",
     "static/js/main.2a11753d.js"
   ]
 }
