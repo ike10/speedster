@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3bf78ce.css",
+    "main.css": "/static/css/main.e2a0bd7b.css",
     "main.js": "/static/js/main.45cde807.js",
     "static/js/787.c275f0e4.chunk.js": "/static/js/787.c275f0e4.chunk.js",
     "static/media/Speedster-hero-gif.gif": "/static/media/Speedster-hero-gif.35b9f20d66cc0fc73db1.gif",
@@ -18,12 +18,12 @@
     "index.html": "/index.html",
     "static/media/Back.svg": "/static/media/Back.e962a90ac0a863dd4b8140891436d2c4.svg",
     "static/media/menu.svg": "/static/media/menu.dbd276684b88336e3e43932c6a77871f.svg",
-    "main.c3bf78ce.css.map": "/static/css/main.c3bf78ce.css.map",
+    "main.e2a0bd7b.css.map": "/static/css/main.e2a0bd7b.css.map",
     "main.45cde807.js.map": "/static/js/main.45cde807.js.map",
     "787.c275f0e4.chunk.js.map": "/static/js/787.c275f0e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3bf78ce.css",
+    "static/css/main.e2a0bd7b.css",
     "static/js/main.45cde807.js"
   ]
 }
