@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2a0bd7b.css",
-    "main.js": "/static/js/main.45cde807.js",
+    "main.css": "/static/css/main.025abeaf.css",
+    "main.js": "/static/js/main.2a11753d.js",
     "static/js/787.c275f0e4.chunk.js": "/static/js/787.c275f0e4.chunk.js",
     "static/media/Speedster-hero-gif.gif": "/static/media/Speedster-hero-gif.35b9f20d66cc0fc73db1.gif",
     "static/media/background-home.svg": "/static/media/background-home.e6012703b5aca1018183.svg",
     "static/media/speedster-footer.gif": "/static/media/speedster-footer.e3a912f1e9be04b50813.gif",
     "static/media/coinsImage.svg": "/static/media/coinsImage.fc14438e65fd33fc423012c24c4f105c.svg",
+    "static/media/ComicSansMS3.ttf": "/static/media/ComicSansMS3.3198d266c6629f0b7ce0.ttf",
     "static/media/speedster_logo.svg": "/static/media/speedster_logo.6e2193f26a0bbba314954a228ff08fe9.svg",
-    "static/media/welcome-header.svg": "/static/media/welcome-header.0f933da135a2cb1064dc15c747e1974c.svg",
+    "static/media/speedster-header-text.svg": "/static/media/speedster-header-text.753e76646a50a3f9aacfa307be684c49.svg",
     "static/media/disclaimer-image.svg": "/static/media/disclaimer-image.356c98fd47e35c40868cbd7c1a21f7e7.svg",
     "static/media/tokenomics-header.svg": "/static/media/tokenomics-header.39ff1c9d23a07d52535a3ffb30568c5b.svg",
     "static/media/telegramicon.svg": "/static/media/telegramicon.8761fbec636073ec56fe1b9a9895a823.svg",
@@ -16,14 +17,18 @@
     "static/media/copyright.svg": "/static/media/copyright.0658f9a14cac147990804e26a8f9bb55.svg",
     "static/media/mediumicon.svg": "/static/media/mediumicon.641a0a1da66f626f23120f6ce11c1a1b.svg",
     "index.html": "/index.html",
-    "static/media/Back.svg": "/static/media/Back.e962a90ac0a863dd4b8140891436d2c4.svg",
+    "static/media/whiteback.svg": "/static/media/whiteback.0302625b5733e0096fd02dcf4c252290.svg",
     "static/media/menu.svg": "/static/media/menu.dbd276684b88336e3e43932c6a77871f.svg",
-    "main.e2a0bd7b.css.map": "/static/css/main.e2a0bd7b.css.map",
-    "main.45cde807.js.map": "/static/js/main.45cde807.js.map",
+    "static/media/charity.svg": "/static/media/charity.bcae79dcb774bd40066c8c03e90ab0d9.svg",
+    "static/media/development.svg": "/static/media/development.e761ebad69120b5afb5bbd803fa3773b.svg",
+    "static/media/liquidity.svg": "/static/media/liquidity.84f969470e4267f725fa69a7c93bb239.svg",
+    "static/media/marketing.svg": "/static/media/marketing.1aa7ff1fcbf8cf7deffc14f8aac3d8a8.svg",
+    "main.025abeaf.css.map": "/static/css/main.025abeaf.css.map",
+    "main.2a11753d.js.map": "/static/js/main.2a11753d.js.map",
     "787.c275f0e4.chunk.js.map": "/static/js/787.c275f0e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2a0bd7b.css",
-    "static/js/main.45cde807.js"
+    "static/css/main.025abeaf.css",
+    "static/js/main.2a11753d.js"
   ]
 }

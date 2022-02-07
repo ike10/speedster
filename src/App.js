@@ -4,10 +4,10 @@ import React, { useState } from "react";
 import './App.css'
 
 
-import Back from '../src/images/homepage/Back.svg'
+import Back from '../src/images/homepage/whiteback.svg'
 import SpeedstarLogo from '../src/images/homepage/speedster_logo.svg'
 
-import WelcomeHeader from '../src/images/homepage/welcome-header.svg'
+import WelcomeHeader from '../src/images/homepage/speedster-header-text.svg'
 import TokenomicsHeader from '../src/images/homepage/tokenomics-header.svg'
 
 import TwitterIcon from '../src/images/homepage/twittericon.svg'
@@ -16,9 +16,15 @@ import MediumIcon from '../src/images/homepage/mediumicon.svg'
 import MenuIcon from '../src/images/homepage/menu.svg'
 
 import DisclaimerImage from '../src/images/homepage/disclaimer-image.svg'
-// import CommunityImage from '../src/images/homepage/speedster-footer.gif'
+import CommunityImage from '../src/images/homepage/speedster-footer.gif'
 import CoinsImage from '../src/images/homepage/coinsImage.svg'
 import CopyrightImage from '../src/images/homepage/copyright.svg'
+
+import LiquidityIcon from '../src/images/homepage/liquidity.svg'
+import MarketingIcon from '../src/images/homepage/marketing.svg'
+import DevelopmentIcon from '../src/images/homepage/development.svg'
+import CharityIcon from '../src/images/homepage/charity.svg'
+
 
 
 
@@ -45,25 +51,27 @@ export const App  = () => {
                 </div>
                 <div className="mobile-page-links">
                        <div>
-                <p>Buy</p>
+               
+                <a href='/'><p>Buy</p></a>
                
                                         </div>
 
                                         <div>
-                <p>Tokenomics</p>
+               
+                <a href='/#tokenomics'><p>Tokenomics</p></a>
                 
                                         </div>
 
                                         <div>
-                <p>FAQ</p>
+                
                 
                         </div>
                            <div>
-                <p>The Speedster Code</p>
-                
+                <p></p>
+                <a href='/#disclaimer'><p>The SpeedSter Code</p></a>
                         </div>
                            <div>
-                <p>Roadmap</p>
+                <a href='/'><p>Roadmap</p></a>
                 
                         </div>
                       
@@ -108,25 +116,27 @@ export const App  = () => {
                 </div>
                 <div className="page-links">
                         <div>
-                <p>Buy</p>
+                
+                <a href='/'><p>Buy</p></a>
                
                                         </div>
 
                                         <div>
-                <p>Tokenomics</p>
-                
+               
+                <a href='/#tokenomics'><p>Tokenomics</p></a>
                                         </div>
 
                                         <div>
-                <p>FAQ</p>
+                
                 
                         </div>
                            <div>
-                <p>The Speedster Code</p>
-                
+               
+                <a href='/#disclaimer'><p>The SpeedSter Code</p></a>
                         </div>
                            <div>
-                <p>Roadmap</p>
+               
+                <a href='/'><p>Roadmap</p></a>
                 
                         </div>
                       
@@ -146,14 +156,14 @@ export const App  = () => {
                 <img className="welcome-header" src={WelcomeHeader} alt='welcome-header'/>
                
                 <h2 className="welcome-text">A decentralised meme token moving at lightening speed</h2>
-                <p className="welcome-subtext">Built as a decentralized community-focused token with charity and development activities in view. Welcome to The SpeedSter Token!!!</p>
+                <p className="welcome-subtext">Built as a decentralized community-focused token with charity and development activities in view.<br/> Welcome to The SpeedSter Token!!!</p>
                 <div className="welcome-call-to-action">
                     <div className="buy-token-button">
-                        <p>BUY SPEEDSTER</p>
+                        <p>Buy SpeedSter</p>
                     </div>
-                    <div className="learn-more-button">
+                    {/* <div className="learn-more-button">
                         <p>Learn more</p>
-                    </div>
+                    </div> */}
                 </div>
         </div> 
         <div className="welcome-image">
@@ -163,35 +173,54 @@ export const App  = () => {
         {/* end of home page */}
 
         {/* Tokenomics page */}
-        <div className="tokenomics-page">
+        <div id='tokenomics' className="tokenomics-page">
         <div className="tokenomics-section">
   <img className="tokenomics-header" src={TokenomicsHeader} alt='tokenomics-header'/>
                <div className="tokenomics-list">
  <div className="tokenomics-item">
-                    <p>Token Name - TheSpeedSter</p>
+                    <p style={{
+                        marginLeft:'22px'
+                    }}>Token Name - The SpeedSter</p>
                 </div>
                 <div className="tokenomics-item">
-                    <p>Ticker- SSTER</p>
+                
+                    <p style={{
+                        marginLeft:'22px'
+                    }}>Ticker - SSTER</p>
                 </div>
                 <div className="tokenomics-item">
-                    <p>Max Supply - 1 Quadrillion</p>
+                 
+                    <p style={{
+                        marginLeft:'22px'
+                    }}>Max Supply - 1 Quadrillion</p>
+                  
                 </div>
                 <div className="tokenomics-item">
-                    <p>Burnt - 840.5 Trillion</p>
+                
+                    <p style={{
+                        marginLeft:'22px'
+                    }}>Burning Reserve - 840.5 Trillion</p>
                 </div>
                 <div className="tokenomics-item">
-                    <p>Available Tokens - 159.5 Trillion</p>
+                
+                    <p style={{
+                        marginLeft:'22px'
+                    }}>Available Tokens - 159.5 Trillion</p>
                 </div>
                 <div className="tokenomics-item">
+                    <img src={LiquidityIcon} alt='liquidity'/>
                     <p>Liquidity - 51.1%</p>
                 </div>
                 <div className="tokenomics-item">
+                <img src={MarketingIcon} alt='marketing'/>
                     <p>Marketing - 26.6</p>
                 </div>
                 <div className="tokenomics-item">
+                <img src={DevelopmentIcon} alt='development'/>
                     <p>Development - 14.7%</p>
                 </div>
                 <div className="tokenomics-item">
+                <img src={CharityIcon} alt='charity'/>
                     <p>Charity- 7.8%</p>
                 </div>
                </div>
@@ -209,17 +238,17 @@ export const App  = () => {
         {/* end of tokenomics section */}
 
         {/* start of disclaimer page */}
-        <div className="disclaimer-page" >
+        <div id="disclaimer" className="disclaimer-page" >
             <div className="disclaimer-image">
                 <img src={DisclaimerImage} alt="disclaimer" />
             </div>
             <div className="disclaimer-section">
                 <p className="disclaimer-text" >No part of this document should be construed as financial advice nor as a guarantee of the future performance for SpeedSter or any other investment mentioned herein. 
 <br/><br/>
-Cryptocurrencies are extremely speculative and are subject to powerful market forces and fluctuations outside of the SpeedSter Finance team. Therefore, it is your responsibility to take all necessary security precautions when purchasing cryptocurrencies.</p>
-            <div className="disclaimer-button">
+Cryptocurrencies are extremely speculative and are subject to powerful market forces and fluctuations outside of the SpeedSter Finance team. <br/> <br/>Therefore, it is your responsibility to take all necessary security precautions when purchasing cryptocurrencies.</p>
+            {/* <div className="disclaimer-button">
                 <p>Learn More</p>
-            </div>
+            </div> */}
             </div>
         </div>
         {/* end of disclaimer page */}
@@ -229,7 +258,7 @@ Cryptocurrencies are extremely speculative and are subject to powerful market fo
                 <p>The SpeedSter as a community grows and develops stronger and better every day.</p>
             </div>
             <div className="community-image">
-                {/* <img src={CommunityImage} alt="community"/> */}
+                <img src={CommunityImage} alt="community"/>
             </div>
         </div>
         {/* end of community page */}

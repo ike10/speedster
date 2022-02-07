@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url('./fonts/ComicSansMS3.ttf');
+  /* src: url("comic-sans-ms/comici.ttf"); */
+}
+
+
 .main-body{
   /* margin: 30px; */
   background-color: #fff;
@@ -55,6 +62,7 @@ p{
     width: 2rem;
     justify-items: flex-end;
     align-items: flex-end;
+    
     
 }
 
@@ -160,8 +168,9 @@ background-size:100% 100%;
 }
 
 .welcome-header{
-    width: 297px;
-    margin: 0;
+     width: 341px;
+height: 67px;
+margin-top: 40px;
 
 }
 .welcome-image{
@@ -295,7 +304,14 @@ height: 67px;
     display: flex;
     height: 25px;
     flex-direction: row;
+    align-items: center;
 
+}
+
+.tokenomics-item img{
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
 }
 .tokenomics-item p{
     
@@ -414,7 +430,16 @@ border-radius: 10px;
     
 }    
 .community-text p{
-    font-size: 36px;
+   
+    font-family: Comic Sans MS;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 116.86%;
+/* or 42px */
+
+
+color: #000000;
 }   
 
 .community-image{
@@ -425,6 +450,7 @@ border-radius: 10px;
 .community-image img{
     width: 100%;
     height: 100%;
+    display: none;
 }
 
 .footer-section{
@@ -548,6 +574,10 @@ transform: rotate(0.49deg);
 /* mobile page */
 
 @media only screen and (max-width: 800px)  {
+
+    .main-body{
+        font-family: Comic Sans MS;
+    }
 .header-container{
     display:none;
     visibility: hidden;
@@ -583,8 +613,10 @@ background-size:100% 100%;
      
 }
 .welcome-header{
-    width: 297px;
-height: 33px;
+     width: 341px;
+height: 67px;
+margin-top: 60px;
+margin-bottom: 0px;
 
 }
 
@@ -686,7 +718,7 @@ height: 450px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 120vh;
     padding: 10px;
   
 }
@@ -705,7 +737,7 @@ height: 450px;
     height: 50%;
 }
 .disclaimer-text{
-    width: 100%;
+    width: 95%;
     font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -722,22 +754,24 @@ font-family:'Comic Sans MS';
 
 .community-page{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     padding-left: 13px;
+    background-image: none;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .community-image{
     width: 100%;
-    height: 400px;
+    height: 60%;
 }
 
 .community-image img{
     width: 100%;
     height: 100%;
+    display: flex;
 }
 
 /* .community-text{
@@ -749,6 +783,7 @@ font-family:'Comic Sans MS';
 
 .community-text{
     width: 90%;
+    height: 40%;
     margin-top: 10px;
     margin-left: 10px;
     
@@ -869,6 +904,7 @@ width: 180px;
     width: 90%;
     margin-bottom: 10px;
     margin-left: 20px;
+   
 }
 .mobile-close img{
     width: 2rem;
