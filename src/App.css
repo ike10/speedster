@@ -421,7 +421,7 @@ border-radius: 10px;
     background-image: url("./images/homepage/speedster-footer.gif");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
+    margin-bottom: 0;
 
 }
 
@@ -453,6 +453,50 @@ color: #000000;
     width: 100%;
     height: 100%;
     display: none;
+}
+
+.roadmap-page{
+    margin-top: -30px;
+    width: 100vw;
+    height: 1025px;
+    display: flex;
+    margin-bottom: -30px;
+}
+
+.roadmap-header{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 160px;
+
+    position: absolute;
+height: 152px;
+
+
+font-family: Comic Sans MS;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 116.86%;
+/* or 75px */
+
+
+/* white */
+
+color: #FFFFFF;
+}
+
+.roadmap-header p{
+    font-size: 64px;
+}
+
+.roadmap-image{
+    width: 100%;
+    height: 100%;
+}
+
+.roadmap-image img{
+    width: 100vw;
+    height: 100%;
 }
 
 .footer-section{
@@ -798,7 +842,9 @@ font-family:'Comic Sans MS';
 }    
 .community-text p{
     font-size: 36px;
-}   
+} 
+
+
 
 .footer-section{
     width: 100%;
@@ -962,6 +1008,40 @@ display: flex;
 }
 #mobile-binance-button img{
     margin: 5px;
+}
+
+.roadmap-page{
+    margin-top: -30px;
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    margin-bottom: -30px;
+}
+
+.roadmap-header{
+   
+    margin-top: 30px;
+    margin-left: 16px;
+
+    position: absolute;
+height: 152px;
+
+
+font-family: Comic Sans MS;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 116.86%;
+/* or 75px */
+
+
+/* white */
+
+color: #FFFFFF;
+}
+
+.roadmap-header p{
+    font-size: 32px;
 }
 }
 

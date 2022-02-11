@@ -25,6 +25,7 @@ import MarketingIcon from '../src/images/homepage/marketing.svg'
 import DevelopmentIcon from '../src/images/homepage/development.svg'
 import CharityIcon from '../src/images/homepage/charity.svg'
 
+import RoadmapImage from '../src/images/homepage/NewRoadmap.svg'
 
 
 
@@ -58,7 +59,7 @@ export const App  = () => {
 
                                         <div>
                
-                <a href='/#tokenomics'><p>Tokenomics</p></a>
+                <a href='#tokenomics'><p>Tokenomics</p></a>
                 
                                         </div>
 
@@ -68,10 +69,10 @@ export const App  = () => {
                         </div>
                            <div>
                 <p></p>
-                <a href='/#disclaimer'><p>The SpeedSter Code</p></a>
+                <a href='#disclaimer'><p>The SpeedSter Code</p></a>
                         </div>
                            <div>
-                <a href='/'><p>Roadmap</p></a>
+                <a href='#roadmap'><p>Roadmap</p></a>
                 
                         </div>
                       
@@ -123,7 +124,7 @@ export const App  = () => {
 
                                         <div>
                
-                <a href='/#tokenomics'><p>Tokenomics</p></a>
+                <a href='#tokenomics'><p>Tokenomics</p></a>
                                         </div>
 
                                         <div>
@@ -132,11 +133,11 @@ export const App  = () => {
                         </div>
                            <div>
                
-                <a href='/#disclaimer'><p>The SpeedSter Code</p></a>
+                <a href='#disclaimer'><p>The SpeedSter Code</p></a>
                         </div>
                            <div>
                
-                <a href='/'><p>Roadmap</p></a>
+                <a href='#roadmap'><p>Roadmap</p></a>
                 
                         </div>
                       
@@ -262,7 +263,16 @@ Cryptocurrencies are extremely speculative and are subject to powerful market fo
             </div>
         </div>
         {/* end of community page */}
-        
+        {/* start of roadmap page */}
+        <div id="roadmap" className="roadmap-page">
+            <div className="roadmap-header">
+                <p>Roadmap</p>
+            </div>
+            <div className="roadmap-image">
+                <img src={RoadmapImage} alt="roadmap"/>
+            </div>
+        </div>
+        {/* end of roadmap page */}
         {/* start of footer section */}
                 <div className="footer-section">
                     <p className="footer-text">Follow our social media platforms for up-to-date information</p>
