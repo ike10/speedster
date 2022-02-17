@@ -25,7 +25,7 @@ import MarketingIcon from '../src/images/homepage/marketing.svg'
 import DevelopmentIcon from '../src/images/homepage/development.svg'
 import CharityIcon from '../src/images/homepage/charity.svg'
 
-import RoadmapImage from '../src/images/homepage/NewRoadmap.svg'
+import RoadmapImage from '../src/images/homepage/speedster roadmap.svg'
 
 
 

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.59ab7910.css",
-    "main.js": "/static/js/main.fc710868.js",
+    "main.css": "/static/css/main.d8efd254.css",
+    "main.js": "/static/js/main.3b964b4b.js",
     "static/js/787.c275f0e4.chunk.js": "/static/js/787.c275f0e4.chunk.js",
     "static/media/Speedster-hero-gif.gif": "/static/media/Speedster-hero-gif.35b9f20d66cc0fc73db1.gif",
     "static/media/background-home.svg": "/static/media/background-home.e6012703b5aca1018183.svg",
     "static/media/speedster-footer.gif": "/static/media/speedster-footer.e3a912f1e9be04b50813.gif",
     "static/media/coinsImage.svg": "/static/media/coinsImage.fc14438e65fd33fc423012c24c4f105c.svg",
-    "static/media/NewRoadmap.svg": "/static/media/NewRoadmap.cf4216a048e5e673ed2db30191b9d6b9.svg",
+    "static/media/speedster roadmap.svg": "/static/media/speedster roadmap.37c9bc91a4e051f15d8d17284f924fbe.svg",
     "static/media/ComicSansMS3.ttf": "/static/media/ComicSansMS3.3198d266c6629f0b7ce0.ttf",
     "static/media/speedster_logo.svg": "/static/media/speedster_logo.6e2193f26a0bbba314954a228ff08fe9.svg",
     "static/media/speedster-header-text.svg": "/static/media/speedster-header-text.753e76646a50a3f9aacfa307be684c49.svg",
@@ -24,12 +24,12 @@
     "static/media/development.svg": "/static/media/development.e761ebad69120b5afb5bbd803fa3773b.svg",
     "static/media/liquidity.svg": "/static/media/liquidity.84f969470e4267f725fa69a7c93bb239.svg",
     "static/media/marketing.svg": "/static/media/marketing.1aa7ff1fcbf8cf7deffc14f8aac3d8a8.svg",
-    "main.59ab7910.css.map": "/static/css/main.59ab7910.css.map",
-    "main.fc710868.js.map": "/static/js/main.fc710868.js.map",
+    "main.d8efd254.css.map": "/static/css/main.d8efd254.css.map",
+    "main.3b964b4b.js.map": "/static/js/main.3b964b4b.js.map",
     "787.c275f0e4.chunk.js.map": "/static/js/787.c275f0e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59ab7910.css",
-    "static/js/main.fc710868.js"
+    "static/css/main.d8efd254.css",
+    "static/js/main.3b964b4b.js"
   ]
 }
